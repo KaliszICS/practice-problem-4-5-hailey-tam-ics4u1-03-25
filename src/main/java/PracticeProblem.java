@@ -1,7 +1,9 @@
 public class PracticeProblem {
 
 	public static void main(String args[]) {
-
+		Cow cat = new Cow("kat", 12, 13.0);
+		Cow cat2 = new Cow("kat", 12, 13);
+		System.out.println(cat.equals( new Object[]{null}));
 	}
 
 	public static void q1() {
